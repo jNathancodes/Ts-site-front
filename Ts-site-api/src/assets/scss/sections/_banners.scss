@@ -1,0 +1,49 @@
+.Banners  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    object-fit: cover;
+    gap: 25px;
+
+    .btn-white {
+        position: relative;
+        bottom: 300px;
+        right: 200px;
+    }
+    .btn-theme {
+        position: relative;
+        bottom: 300px;
+        left: 200px;
+    }
+
+    .p1 {
+        width: 630px;
+    }
+
+    .p2 {
+        width: 630px;
+    }
+
+    .img-p1 {
+
+        h1 {
+            position: relative;
+            font-weight: 700;
+            color: $color-dark;
+            bottom: 330px;
+            left: 170px;
+        }
+    }
+
+    .img-p2 {
+
+        h1 {
+            position: relative;
+            font-weight: 700;
+            color: $color-dark;
+            bottom: 330px;
+            right: 200px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.flashsale {
+    display: flex;
+    width: 1200px;
+    gap: 6%;
+    margin-left: 16%;
+
+    .flash-left {
+        width: 50%;
+        height: 300px;
+
+    }
+    .flash-right {
+        width: 50%;
+    }
+
+    .img5 {
+        height: 780px;
+        width: 640px;
+    }
+    .btn-white {
+        position: relative;
+        left: 40%;
+        bottom: 150%;
+    }
+    .flash-text{
+        color: $color-white;
+        position: relative;
+        bottom: 170%;
+        left: 30%;
+        h1{
+            font-weight: 700;
+        }
+    }
+
+}

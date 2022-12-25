@@ -1,0 +1,29 @@
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: $linear-gradient-light;
+
+    .img-left {
+        padding-left: 16%;
+    }
+    .img-right {
+        padding-right: 16%;
+    }
+
+    .showcase-body {
+        text-align: center;
+
+        h1 {
+            font-size: 65px;
+            font-weight: 800;
+        }
+
+        p {
+            margin-top: 50px;
+            margin-bottom: 80px;
+            font-size: 20px;
+        }
+    }
+}

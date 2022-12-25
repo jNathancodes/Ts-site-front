@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $color-extra-lightgray;
+    padding: 25px;
+
+    .socialmedia {
+        margin-bottom: 25px;
+
+        a{
+            font-size: 20px;
+            color: $color-dark;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 10px;
+            transition: all 0.1s ease-in-out; 
+
+            &:hover {
+                text-decoration: none;
+                color: $color-theme;
+            }
+        }
+    }
+}
